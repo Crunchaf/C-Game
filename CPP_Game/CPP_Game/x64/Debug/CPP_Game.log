@@ -1,0 +1,27 @@
+﻿  win32_platform.cpp
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\renderer.cpp(52,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\renderer.cpp(53,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\renderer.cpp(54,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\renderer.cpp(55,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(1762,98): warning C4244: 'argument': conversion from 'long' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(55,14): message : see reference to function template instantiation 'void std::invoke<void(__cdecl *)(Input *,float,float,float),Input*,long,long,float>(_Callable &&,_Ty1 &&,long &&,long &&,float &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(Input *,float,float,float),
+              _Ty1=Input *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(62,17): message : see reference to function template instantiation 'unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4>(void *) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(71,40): message : see reference to function template instantiation 'unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2,3,4>(std::integer_sequence<size_t,0,1,2,3,4>) noexcept)(void *)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(88,9): message : see reference to function template instantiation 'void std::thread::_Start<void(__cdecl &)(Input *,float,float,float),_Ty,LONG&,LONG&,float&>(_Fn,_Ty &&,LONG &,LONG &,float &)' being compiled
+          with
+          [
+              _Ty=Input *,
+              _Fn=void (__cdecl &)(Input *,float,float,float)
+          ]
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\win32_platform.cpp(130,17): message : see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(Input *,float,float,float),Input*,LONG&,LONG&,float&,0>(_Fn,Input *&&,LONG &,LONG &,float &)' being compiled
+          with
+          [
+              _Fn=void (__cdecl &)(Input *,float,float,float)
+          ]
+C:\Users\austi\source\repos\CPP_Game\CPP_Game\win32_platform.cpp(53): warning C4715: 'window_callback': not all control paths return a value
+  CPP_Game.vcxproj -> C:\Users\austi\source\repos\CPP_Game\x64\Debug\CPP_Game.exe
